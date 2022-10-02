@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight:900px;
+}
+.performance{
+    margin-top: 0%;
+}
+.headericons{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.888);
+    color: rgba(255, 255, 255, 0.915);
+    height: 25px;
+    gap: 200px;
+    font-size: 9px;
+    align-items: center;
+}
+i{
+    color: rgba(255, 174, 0, 0.952);
+}
+
+.contacticons{
+    display: flex;
+    gap: 125px;
+   
+}
+
+.socialmediaicons{
+    display: flex;
+    gap: 10px;
+}
+.generalcontainer{
+    background-image: url(/images/engr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(0, 0, 128, 0.585);
+    background-blend-mode: overlay;
+    background-position: center;
+    height: 580px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 390px;
+    color: white;
+    height:60px ;
+    background-color: #192841a8;
+    align-items: center;
+}
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 13.5px;  
+}
+.firsth{
+    text-decoration: underline goldenrod;
+}
+.firstparagraph{
+    padding: 120px 220px;
+    
+}
+.secondh{
+    color: gold;
+    font-size: 40px;
+}
+.firstp{
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.buttons{
+    margin-top: 12px;
+    display: flex;
+    gap: 30px;
+}
+.firstbutton{
+    padding: 10px 15px;
+    background-color: gold;
+    border: none;
+}
+.secondbutton{
+    padding: 10px 15px;   
+    border: 1px solid white;
+    background-color: transparent;
+    color: white
+}
+.undericon{
+    display: flex;
+    justify-content: center;
+    height: 85px;
+    background-color: #152238;
+    align-items: center;
+    gap: 360px;
+}
+.secondp{
+    font-size: 22px;
+    color: white;
+    font-weight: 900px;
+}
+.secondcontainer{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+.mainp{
+    margin-top: 50px;
+    font-size: 29px;
+    color: black;
+    margin-left: 225px;
+    font-weight: bolder;
+}
+.firstspan{
+    color: gold;
+    font-weight: bolder;
+}
+.features{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    margin-left: 380px;
+    margin-right: 380px;
+    gap: 20px;
+    margin-top: 30px;
+}
+.thirdp{
+    border: 1px solid black;
+    width: 210px;
+    height: 135px;
+    text-align: center;
+    color: black;
+    font-weight:bolder;
+}
+.secondspan{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.76);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+    height: 100px;
+    background-color: gold;
+    align-items: center;
+    font-size: 24px;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:underline;
+}
+
