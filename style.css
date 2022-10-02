@@ -35,7 +35,7 @@ i{
     gap: 10px;
 }
 .generalcontainer{
-    background-image: url(/images/engr.jpg);
+    background-image: url(images/engr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color:rgba(0, 0, 128, 0.585);
